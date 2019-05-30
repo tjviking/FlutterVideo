@@ -54,7 +54,7 @@ android {
     }
 
     dependencies {
-        compile 'com.github.tjviking:ExoPlayer:release-v2-SNAPSHOT
+        compile 'com.github.tjviking:ExoPlayer:release-v2-SNAPSHOT'
         //implementation 'com.google.android.exoplayer:exoplayer-core:2.9.6'
         //implementation 'com.google.android.exoplayer:exoplayer-hls:2.9.6'
         //implementation 'com.google.android.exoplayer:exoplayer-dash:2.9.6'
