@@ -191,6 +191,7 @@ class VideoPlayerController extends ValueNotifier<VideoPlayerValue> {
   int get textureId => _textureId;
 
   Future<void> initialize() async {
+    print('############ tjviking patched Video Player ####');
     _lifeCycleObserver = _VideoAppLifeCycleObserver(this);
     _lifeCycleObserver.initialize();
     _creatingCompleter = Completer<void>();
